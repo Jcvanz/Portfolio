@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+}
+.hero-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('./img/nubelson-fernandes-iE71-TMrrkE-unsplash.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+nav {
+    width: 50%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 700px;
+}
+
+li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #00688B;
+}
+
+.arrows {
+    width: 60px;
+    height: 172px;
+    bottom: 20px;
+}
+
+.arrows path {
+    stroke: #fff;
+    fill: transparent;
+    stroke-width: 1px;
+    animation: arrows 2s infinite;
+    -webkit-animation: arrows 2s infinite;
+}
+
+@keyframes arrows
+{
+0% {opacity:0;}
+40% {opacity:1;}
+80% {opacity:0;}
+100% {opacity:0;}
+}
+
+@-webkit-keyframes arrows
+{
+0% {opacity:0;}
+40% {opacity:1;}
+80% {opacity:0;}
+100% {opacity:0;}
+}
+
+.arrows path.a1 {
+    animation-delay: -1s;
+    -webkit-animation-delay: -1s;
+}
+
+.arrows path.a2 {
+    animation-delay: -0.5s;
+    -webkit-animation-delay: -0.5s;
+}
+
+.arrows path.a3 {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+}
+
+.content-container {
+    height: 102vh;
+    background-color: #333;
+}
+
+.profile-container {
+    color: #333;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./img/pexels-daniel-reche-3721941.jpg');
+    background-size: cover;
+}
+
+.profile-content {
+    width: 35%;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.profile-image {
+    width: 180px;
+    height: auto;
+    border-radius: 100%;
+    border: 4px solid #00688B;
+}
+
+.name-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 21px;
+    margin-top: 15px;
+}
+
+.profile-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.profile-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: #00688B;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 35px;
+    margin-left: 1px;
+    cursor: pointer;
+}
+
+.divider {
+    width: 100%;
+    border-top: .5px solid #bfbfbf;
+    margin: 20px 0;
+}
+
+.icons-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.icon-item {
+    width: 80px;
+    height: auto;
+}
+
+.profile-sinopse {
+    width: 430px;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-size: 19px;
+}
+
+.project-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./img/head-set-imagem.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-content {
+    width: 90%;
+    height: 95%;
+    display: grid;
+    grid-template-rows: repeat(1fr 3);
+}
+
+.position-container {
+    width: 90%;
+    display: flex;
+}
+
+.right {
+    justify-content: flex-start;
+    margin-right: 40px;
+} 
+
+.left {
+    justify-content: flex-end;
+    margin-left: 40px;
+}
+
+.project-card {
+    width: 520px;
+    height: 180px;
+    margin-top: 10px;
+    background-color: #000000;
+    box-shadow: 10px 10px 5px rgb(49, 49, 49);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.card-reverse {
+    flex-direction: row-reverse;
+}
+
+.project-image {
+    width: 300px;
+    height: 170px;
+    position: relative;
+    border-radius: 8px;
+    right: 20px;
+    top: 20px;
+}
+
+.image-reverse {
+    left: 20px;
+}
+
+.project-text {
+    color: #fff;
+    font-size: 12.5px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.form-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./img/headset.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+
+.form-content {
+    width: 600px;
+    height: 650px;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(49, 49, 49, 0.35);
+    width: 600px;
+    height: 550px;
+    padding: 20px;
+    color: #00688B;
+}
+
+h2 {
+    color: #00688B;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    display: block;
+    width: 100%;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 300px;
+    max-height: 280px;
+    min-height: 280px;
+}
+
+button {
+    width: 30%;
+    height: 100%;
+    border-radius: 20px;
+    margin-left: 35%;
+    margin-top: 10px;
+    border: none;
+    background-color: #00688B;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+}
