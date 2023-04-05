@@ -2,7 +2,9 @@
 
 * {
     margin: 0;
+    padding: 0;
 }
+
 .hero-container {
     height: 100vh;
     display: flex;
@@ -178,7 +180,7 @@ h1 {
 
 .project-container {
     width: 100%;
-    height: 200vh;
+    height: 200%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,13 +210,13 @@ h1 {
 
 .left {
     justify-content: flex-end;
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
 .project-card {
     width: 550px;
-    height: 180px;
-    margin-top: 10px;
+    height: 160px;
+    margin-top: 20px;
     box-shadow: 10px 10px 5px rgb(49, 49, 49);
     border-radius: 8px;
     display: flex;
@@ -263,7 +265,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Oswald', sans-serif;
-    margin-top: 600px;
+    margin-top: 700px;
 }
 
 .form-content {
@@ -343,7 +345,9 @@ button:hover {
     .hero-container {
         height: 800px;
         width: auto;
-        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-image: url('./img/nubelson-fernandes-iE71-TMrrkE-unsplash.jpg');
         background-size: cover;
         background-position: center;
