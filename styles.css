@@ -133,7 +133,7 @@ h1 {
     width: 40px;
     height: 40px;
     margin-top: 30px;
-    transition: transform 50ms;
+    transition: transform 150ms;
 }
 
 .redes-logo:hover {
@@ -172,6 +172,36 @@ h1 {
     color: #fff;
     font-size: 19px;
     text-align:justify;
+}
+
+.content-download {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 150px;
+    border-radius: 20px;
+    width: 150px;
+    height: 60px;
+    background: linear-gradient(#000000, #061560c0, #070707);
+    transition: tranform 400ms;
+}
+
+
+.download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #ff8000;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.content-download:hover {
+    background: linear-gradient(#061560c2, #000000, #061560b4);
+    transform: scale(1.05);
 }
 
 .sinopse {
@@ -330,14 +360,15 @@ button {
     background-color: #00688B;
     color: #fff;
     font-family: 'Oswald', sans-serif;
-    transform: 300ms;
+    transition: transform 300ms;
     cursor: pointer;
 }
 
 button:hover {
+    transform: scale(1.05);
     opacity: 0.7;
-    background-color: rgb(77, 77, 77);
-    color: #000000;
+    background-color: rgb(52, 52, 52);
+    color: #ffffff;
 }
 
 @media (max-width: 1050px) {
