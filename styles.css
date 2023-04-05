@@ -341,18 +341,19 @@ button:hover {
 @media (max-width: 400px) {
     
     .hero-container {
-        height: 760px;
-        width: auto;
+        height: 890px;
+        width:390px;
         justify-content: space-between;
         background-image: url('./img/nubelson-fernandes-iE71-TMrrkE-unsplash.jpg');
-        background-size: 1200px;
+        background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
     }
 
     h1 {
         font-family: 'Oswald', sans-serif;
         color: rgb(255, 255, 255);
-        font-size: 25px;
+        font-size: 30px;
         margin-left: 10px;
         font-weight: 600;
         text-align: center;
@@ -374,7 +375,7 @@ button:hover {
 
     .profile-container {
         color: #333;
-        height: 1100px;
+        height: 1300px;
         display: block;
         align-items: center;
         justify-content: center;
@@ -386,11 +387,11 @@ button:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 265px;
-        height: 600px;
+        width: 290px;
+        height: 580px;
         background: linear-gradient(#000000, #ffffff, #ffffff);
         border-radius: 8px;
-        margin-left: 30px;
+        margin-left: 45px;
     }
 
     .profile-image {
@@ -400,6 +401,7 @@ button:hover {
     .profile-text {
         font-family: 'Oswald', sans-serif;
         font-size: 17px;
+        font-weight: 500;
         text-align: center;
         width: 80%;
         margin-top: 10px;
@@ -427,25 +429,27 @@ button:hover {
     }
 
     .icon-item {
-        width: 35px;
-        padding: 3px;
-        margin-left: 20px;
+        width: 55px;
+        margin-top: 10px;
+        padding: 5px;
+        margin-left: 10px;
         height: auto;
     }
 
     .profile-sinopse {
-        width: 290px;
+        width: 300px;
         font-family: 'Oswald', sans-serif;
         color: #fff;
-        font-size: 14px;
+        font-size: 18px;
+        font-weight: 100;
         text-align:justify;
-        margin-left: 15px;
+        margin-left: 45px;
         margin-top: 35px;
     }
 
     .project-container {
         width: 100%;
-        height: 1800px;
+        height: 2400px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -454,6 +458,10 @@ button:hover {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    .project-content {
+        height: 95%;
     }
 
     .position-container {
@@ -472,11 +480,11 @@ button:hover {
     .project-card {
         width: 250px;
         height: 135px;
-        margin-top: 15px;
+        margin-top: 20px;
+        margin-left: 45px;
         box-shadow: 10px 10px 5px rgb(49, 49, 49);
         border-radius: 8px;
-        display: block;
-        margin-left: 20px;
+        display: block; 
     }
 
     .project-image {
@@ -492,12 +500,12 @@ button:hover {
 
     .project-text {
         color: #fff;
-        font-size: 13.5px;
+        font-size: 15px;
         font-family: 'Oswald', sans-serif;
         font-weight: 100;
         display: block;
-        margin-top: 30px;
-        margin-left: 20px;
+        margin-top: 20px;
+        margin-left: 10px;
         text-align: justify;
     }
 
