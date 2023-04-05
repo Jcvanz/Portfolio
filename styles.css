@@ -345,7 +345,7 @@ button:hover {
         width: auto;
         justify-content: space-around;
         background-image: url('./img/nubelson-fernandes-iE71-TMrrkE-unsplash.jpg');
-        background-size: 1250px;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
