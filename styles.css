@@ -338,12 +338,12 @@ button:hover {
     color: #000000;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 700px) {
     
     .hero-container {
-        height: 890px;
-        width:390px;
-        justify-content: space-between;
+        height: 700px;
+        width: auto;
+        justify-content: space-around;
         background-image: url('./img/nubelson-fernandes-iE71-TMrrkE-unsplash.jpg');
         background-size: cover;
         background-position: center;
@@ -355,14 +355,14 @@ button:hover {
         color: rgb(255, 255, 255);
         font-size: 30px;
         margin-left: 10px;
-        font-weight: 600;
         text-align: center;
         margin-top: 80px;
     }
 
     .arrows {
         width: 100px;
-        height: 300px;
+        height: 500px;
+        margin-top: 190px;
         justify-content: center;
         align-items: center;
 
@@ -375,6 +375,7 @@ button:hover {
 
     .profile-container {
         color: #333;
+        width: auto;
         height: 1300px;
         display: block;
         align-items: center;
@@ -387,11 +388,11 @@ button:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 290px;
+        width: 280px;
         height: 580px;
         background: linear-gradient(#000000, #ffffff, #ffffff);
         border-radius: 8px;
-        margin-left: 45px;
+        margin-left: 50%;
     }
 
     .profile-image {
@@ -443,7 +444,7 @@ button:hover {
         font-size: 18px;
         font-weight: 100;
         text-align:justify;
-        margin-left: 45px;
+        margin-left: 15%;
         margin-top: 35px;
     }
 
