@@ -9,16 +9,6 @@
 </head>
     <body>
         <div class="hero-container">
-            <header>
-                <nav>
-                    <ul>
-                        <li>Home</li>
-                        <li>Projetos</li>
-                        <li>Tecnologias</li>
-                        <li>Contato</li>
-                    </ul>
-                </nav>
-            </header>
             <h1>Procurando um desenvolvedor FullStack?</h1>
             <svg class="arrows">
                 <path class="a1" d="M0 0 L30 32 L60 0"></path>
@@ -36,33 +26,43 @@
                         Foco, disciplina e consistência.                    
                         Vamos revolucionar o mercado de tecnologia juntos?
                     </span>
-                    <a href="https://www.instagram.com/jc.vanz/?hl=pt-br" target="_blank">  
-                        <button class="profile-button">
-                            Instagram!
-                        </button>
-                    </a>
+                    <div class="redes-content">
+                        <a href="https://www.linkedin.com/in/julio-cesar-cioato-vanz-0307a324a/" target="_blank">  
+                            <img class="redes-logo" src="./img/linkedin-logo.png" alt="LinkedIn"/>
+                        </a>
+                        <a href="https://github.com/Jcvanz" target="_blank">  
+                            <img class="redes-logo" src="./img/git-logo.png" alt="GitHub"/>
+                        </a>
+                        <a href="https://www.instagram.com/jc.vanz/?hl=pt-br" target="_blank">  
+                            <img class="redes-logo" src="./img/insta-logo.png" alt="Instagram"/>
+                        </a>
+                    </div>
                     <div class="divider"></div>
-                    <div class="icons-container">
+                    <div class="icons-container" id="icons-hover">
+                        <img class="icon-item" id="icons-hover" src="./img/logo-html.png" />
+                        <img class="icon-item" src="./img/logo-css.png" />
                         <img class="icon-item" src="./img/java.png" />
+                        <img class="icon-item" src="./img/typescript.png" />
                         <img class="icon-item" src="./img/re-removebg-preview.png" />
-                        <img class="icon-item" src="./img/nd.png" />
+                        <img class="icon-item" src="./img/node.png" />
                     </div>
                 </div>
             </div>
 
             <div class="profile-sinopse">
-                Olá, meu nome é Julio, tenho 19 anos e atualmente estou procurando um 
-                emprego/estágio na área de desenvolvedor/programador. No momento estou 
-                aprendendo a usar as linguagens de JavaScript, CSS, HTML, entre outras 
-                através do curso Profissão Programador, onde já aprendi a desenvolver 
-                este portfólio, usando as linguagens acima citadas, entre outras coisas. 
-                Estou aprimorando meus conhecimentos desenvolvendo um site, onde simula
-                uma página de lançamento de um filme, tendo um blog sobre as curiosidades
-                do filme e uma página com comentários, ainda, exibindo banners dos autores
-                principais, bem como, suas fotos, o desenvolvimento do site é bem básico, é 
-                apenas para aprimorar meus conhecimentos de HTML e CSS. Pretendo ingressar 
-                no mercado de trabalho o mais rápido, aderindo o máximo de conhecimento 
-                possível, para progredir cada vez mais.
+                Olá, meu nome é Julio, tenho 19 anos, estou cursando Ciência da computação e 
+                atualmente estou procurando um emprego/estágio na área de dev front end e/ou full 
+                stack. No momento estou aprendendo e aprendi a usar as tecnologias de CSS, HTML,
+                JavaScript, TypeScript, React.js, Node.js e SQL através do curso Profissão  Programador, 
+                onde já aprendi a desenvolver este portfólio, usando as linguagens acima citadas, 
+                um site do Batman, e diversos prejetinhos com JavaScript. 
+                Pretendo ingressar no mercado de trabalho o mais rápido, aderindo o máximo de 
+                conhecimento possível, para progredir cada vez mais, tendo disponibilidade e 
+                interesse em aprender novas tecnologias. 
+                <p class="sinopse">
+                    Veja abaixo alguns projetos que criei, ou fique a vontade para passar no meu GitHub,
+                    onde posto todos os códigos deles. 
+                </p>
             </div> 
 
         </div>
@@ -73,23 +73,23 @@
             <div class="project-content">
                 
                 <div class="position-container left">
-                    <div class="project-card">
-                        <image class="project-image" src="./img/batman.PNG" />
+                    <div class="project-card" style="background: linear-gradient(#000000, #1b0101, #b60000);">
+                        <image class="project-image" src="./img/batman.PNG"/>
                         <p class="project-text">
-                            Nesse projeto foi usado as ferramentas HTML e CSS. Nele foi criado a fim de melhorar
+                            Nesse projeto foi usado as tecnologias HTML e CSS. Ele foi criado a fim de melhorar
                             e aprimorar os meus conhecimentos. Esse projeto se baseia em uma página do novo
                             filme do Batman, possuindo as fotos dos três princiais atores do filme e possuindo
-                            uma página com curiosidades do filme, assim como o trailer do filme. Contem também 
-                            um botão com a opção de comprar ingressos.
+                            uma página com curiosidades do filme, assim como o trailer do mesmo. Contem também 
+                            um botão com a opção de compra de ingressos.
                         </p>
                     </div>
                 </div>
 
                 <div class="position-container right">
-                    <div class="project-card">
+                    <div class="project-card" style="background: linear-gradient(#333232, #555555, #959595);">
                         <image class="project-image" src="./img/projeto-obesidade.PNG" />
                         <p class="project-text">
-                            Nesse projeto usei as ferramentas HTML, CSS e JavaScript. Esse projeto serve para 
+                            Nesse projeto usei as tecnologias HTML, CSS e JavaScript. Esse projeto serve para 
                             calcular seu indice de massa corporal, ao calcular usando sua altura mais seu peso, 
                             ele vai te dar a resposta se você está abaixo do peso, no peso ideal, com obesidade 
                             nivel um, dois ou três. Projeto pequeno a fim de melhorar as habilidades com o JavaScript.
@@ -97,15 +97,36 @@
                     </div>
                 </div>
 
-                <div class="position-container left">
-                    <div class="project-card">
-                        <image class="project-image" src="./img/batman.PNG" />
+                <div class="position-container left" >
+                    <div class="project-card" style="background: linear-gradient(#043b6a, #085fb6, #85c1f6);">
+                        <image class="project-image" src="./img/jogo-mario.PNG" />
                         <p class="project-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen 
-                            book. It has survived not only five centuries, but also the leap into electronic typesetting, 
-                            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                            Neste projeto criei um mini jogo com referências do jogo do Mario. Nele foi utilizado
+                            HTML para estruturar o jogo, CSS para estilizar e dar uma aparencia mais bonita para o
+                            jogo e JavaScript para conseguirmos fazer com que o personagem pule sobre os tubos. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="position-container right">
+                    <div class="project-card" style="background: linear-gradient(#2a2a2a, #5c5c5c, #a5a5a5);">
+                        <image class="project-image" src="./img/cepp.PNG"/>
+                        <p class="project-text">
+                            Nesse projeto usei as tecnologias HTML, CSS e JavaScript. Nesse projeto conseguimos 
+                            buscar qualquer CEP existente. Foi utilizado HTML para estruturar a página, CSS para 
+                            estilizar a página, e por fim, o JavaScript para que tudo funcione perfeitamente. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="position-container left" >
+                    <div class="project-card" style="background: linear-gradient(#312c2c, #535353, #707070);">
+                        <image class="project-image" src="./img/portfolio.PNG" />
+                        <p class="project-text">
+                            Este projeto é um portfólio meu, onde tem os projetos que criei, incluindo este. Nele tem
+                            informações minhas e no final possui uma forma para entrar em contato comigo. Ele foi feito
+                            atravez das tecnologias HTML para a estruturação e CSS para estilização, mais adiante pretendo
+                            intruduzir JavaScript nele. 
                         </p>
                     </div>
                 </div>
@@ -125,22 +146,22 @@
 
                 <label>
                     Nome:
-                    <input type="text" name="name">
+                    <input type="text" name="name" placeholder="Ex. João"/>
                 </label>
                 
                 <label>
                     Email:
-                    <input type="email" name="email">
+                    <input type="email" name="email" placeholder="Coloque seu Email">
                 </label>
         
                 <label>
                      Telefone:
-                    <input type="text" name="fone">
+                    <input type="number" name="fone" placeholder="(99)9 9999-8888">
                 </label>
 
                 <label>
                     Mensagem:
-                    <textarea name="message"></textarea>
+                    <textarea name="message" placeholder="Escreva sua mensagem..."></textarea>
                 </label>
  
                 <button type="submit">Enviar</button>
@@ -148,6 +169,5 @@
         </div>
 
     </div>
-    
 </body>
 </html>
