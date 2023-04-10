@@ -576,7 +576,7 @@ button:hover {
     }
     
     .form-content {
-        width: 300px;
+        width: auto;
         height: 450px;
         margin-top: 50px;
         justify-content: center;
@@ -588,9 +588,8 @@ button:hover {
         flex-direction: column;
         justify-content: center;
         background-color: rgba(8, 8, 8, 0.866);
-        width: 60%;
+        width: 90%;
         height: 360px;
-        margin-left: 5px;
         color: #00688B;
     }
 
