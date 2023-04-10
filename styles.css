@@ -372,16 +372,17 @@ button:hover {
 }
 
 @media (max-width: 1050px) {
-    
+    #container-img{
+        background-image: url('./img/nubelson-fernandes-iE71-TMrrkE-unsplash.jpg');
+        aspect-ratio: 1/3;
+    }
+
     .hero-container {
         height: 800px;
         width: auto;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url('./img/nubelson-fernandes-iE71-TMrrkE-unsplash.jpg');
-        background-size: cover;
-        background-position: center;
     }
 
     h1 {
@@ -396,6 +397,7 @@ button:hover {
     .arrows {
         width: 100px;
         height: 500px;
+        margin: auto;
         margin-top: 190px;
         justify-content: center;
         align-items: center;
@@ -404,13 +406,14 @@ button:hover {
 
     .content-container {
         height: 230%;
+        width: 92%;
         background-color: #333;
     }
 
     .profile-container {
         color: #333;
-        width: auto;
-        height: 1300px;
+        width: 100%;
+        height: 1450px;
         display: block;
         align-items: center;
         justify-content: center;
@@ -422,11 +425,11 @@ button:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 280px;
+        width: 225px;
         height: 580px;
-        background: linear-gradient(#000000, #ffffff, #ffffff);
+        background: linear-gradient(#000000, #f4f4f4, #ffffff);
         border-radius: 8px;
-        margin-left: 50%;
+        margin-left: 15%;
     }
 
     .profile-image {
@@ -448,6 +451,20 @@ button:hover {
         margin-top: 10px;
     }
 
+    .content-download {
+        width: 150px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-top: 40px;
+        margin-left: 35px;
+    }
+
+    .download {
+        margin: 0;
+    }
+
     a {
         text-decoration: none;
     }
@@ -460,26 +477,27 @@ button:hover {
     .icons-container {
         width: 90%;
         display: grid;
+        margin-right: 23px;
         grid-template-columns: repeat(3, 2fr);
     }
 
     .icon-item {
-        width: 55px;
+        width: 45px;
         margin-top: 10px;
         padding: 5px;
-        margin-left: 10px;
-        height: auto;
+        justify-content: center;
+        align-items: center;
     }
 
     .profile-sinopse {
-        width: 300px;
+        width: 220px;
         font-family: 'Oswald', sans-serif;
         color: #fff;
         font-size: 18px;
         font-weight: 100;
         text-align:justify;
-        margin-left: 15%;
         margin-top: 35px;
+        margin-left: 15px;
     }
 
     .project-container {
@@ -500,23 +518,22 @@ button:hover {
     }
 
     .position-container {
-        width: 50%;
         display: block;
     }
 
     .right {
-        margin-right: 0;
+        margin: 0;
     } 
 
     .left {
-        margin-left: 0;
+        margin: 0;
     }
 
     .project-card {
-        width: 250px;
+        width: 215px;
         height: 135px;
-        margin-top: 20px;
-        margin-left: 45px;
+        margin-top: 1px;
+        margin-left: 10px;
         box-shadow: 10px 10px 5px rgb(49, 49, 49);
         border-radius: 8px;
         display: block; 
@@ -527,8 +544,7 @@ button:hover {
         height: 120px;
         position: relative;
         border-radius: 8px;
-        right: 0px;
-        left: 25px;
+        left: 8px;
         top: 25px;
         display: block;
     }
@@ -539,13 +555,13 @@ button:hover {
         font-family: 'Oswald', sans-serif;
         font-weight: 100;
         display: block;
-        margin-top: 20px;
+        margin-top: 25px;
         margin-left: 10px;
         text-align: justify;
     }
 
     .form-container {
-        width: 100%;
+        width: 267px;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -571,10 +587,10 @@ button:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: rgba(15, 15, 15, 0.866);
-        width: 240px;
+        background-color: rgba(8, 8, 8, 0.866);
+        width: 200px;
         height: 360px;
-        padding: 20px;
+        margin-left: 5px;
         color: #00688B;
     }
 
