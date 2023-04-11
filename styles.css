@@ -587,7 +587,7 @@ button:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: rgba(8, 8, 8, 0.866);
+        background-color: rgb(80, 80, 80);
         width: 90%;
         height: 360px;
         color: #00688B;
