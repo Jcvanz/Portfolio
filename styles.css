@@ -373,7 +373,7 @@ button:hover {
 
 @media (max-width: 1050px) {
     .hero-container {
-        height: 100vh;
+        height: auto;
         width: 100%;
         display: flex;
         align-items: center;
@@ -486,6 +486,7 @@ button:hover {
 
     .icon-item {
         width: 50%;
+        height: auto;
         margin: 5%;
         padding: 15%;
         justify-content: center;
