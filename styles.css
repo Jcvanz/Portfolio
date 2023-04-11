@@ -334,7 +334,7 @@ label {
 input {
     display: block;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -347,7 +347,7 @@ textarea {
     max-height: 200px;
     min-height: 200px;
     font-family: 'Oswald', sans-serif;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 button {
@@ -372,12 +372,6 @@ button:hover {
 }
 
 @media (max-width: 1050px) {
-    .hero-image {
-        background-image: url('./img/img-1.PNG');
-        background-position: center;
-        background-size: cover;
-    }
-
     .hero-container {
         height: 100vh;
         display: flex;
@@ -578,7 +572,7 @@ button:hover {
 
     .form-container {
         width: auto;
-        height: 100%;
+        height: 150vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -588,7 +582,6 @@ button:hover {
         background-repeat: no-repeat;
         background-size: cover;
         font-family: 'Oswald', sans-serif;
-        margin-top: 0px;
     }
     
     .form-content {
