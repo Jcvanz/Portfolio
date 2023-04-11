@@ -372,15 +372,19 @@ button:hover {
 }
 
 @media (max-width: 1050px) {
+    .hero-image {
+        background-image: url('./img/nubelson-fernandes-iE71-TMrrkE-unsplash.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+    }
+
     .hero-container {
         height: auto;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url('./img/nubelson-fernandes-iE71-TMrrkE-unsplash.jpg');
-        background-position: center;
-        background-size: cover;
     }
 
     h1 {
