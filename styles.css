@@ -70,14 +70,14 @@ h1 {
     -webkit-animation-delay: 0s;
 }
 
-.content-container {
-    height: 105vh;
+.content-container1 {
+    height: 150vh;
     background-color: #333;
 }
 
 .profile-container {
     color: #333;
-    height: 100%;
+    height: 110vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -210,7 +210,7 @@ h1 {
 
 .project-container {
     width: 100%;
-    height: 200%;
+    height: 200vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,13 +223,14 @@ h1 {
 
 .project-content {
     width: 90%;
-    height: 100%;
+    height: 90%;
     display: grid;
     grid-template-rows: repeat(1fr 4);
 }
 
 .position-container {
     width: 90%;
+    height: 95%;
     display: flex;
 }
 
@@ -245,7 +246,7 @@ h1 {
 
 .project-card {
     width: 550px;
-    height: 160px;
+    height: 90%;
     margin-top: 20px;
     box-shadow: 10px 10px 5px rgb(49, 49, 49);
     border-radius: 8px;
@@ -285,7 +286,7 @@ h1 {
 
 .form-container {
     width: 100%;
-    height: 100%;
+    height: 121vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,15 +296,14 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Oswald', sans-serif;
-    margin-top: 700px;
 }
 
 .form-content {
     width: 600px;
     height: 650px;
-    margin-top: 70px;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 form {
@@ -311,8 +311,8 @@ form {
     flex-direction: column;
     justify-content: center;
     background-color: rgba(4, 4, 4, 0.866);
-    width: 600px;
-    height: 550px;
+    width: 100%;
+    height: auto;
     padding: 20px;
     border-radius: 10%;
     color: #00688B;
@@ -374,7 +374,11 @@ button:hover {
 @media (max-width: 1050px) {
     #container-img{
         background-image: url('./img/nubelson-fernandes-iE71-TMrrkE-unsplash.jpg');
-        aspect-ratio: auto;
+        width: 100%;
+        max-width: 100%;
+        max-height: 800px;
+        object-fit: cover;
+        object-position: center;
     }
 
     .hero-container {
@@ -421,33 +425,38 @@ button:hover {
         background-size: cover;
     }
 
+    .profile-content {
+        width: 100%;
+    }
+
     .profile-card {
-        display: flex;
         flex-direction: column;
         align-items: center;
-        width: 200px;
-        height: 580px;
-        background: linear-gradient(#000000, #f4f4f4, #ffffff);
+        width: 100%;
+        height: 70vh;
+        background: linear-gradient(#000000, #fffefe, #ffffff);
         border-radius: 8px;
-        margin-left: 15%;
     }
 
     .profile-image {
-        width: 100px;
+        width: 150px;
+        height: auto;
     }
 
     .profile-text {
         font-family: 'Oswald', sans-serif;
-        font-size: 17px;
+        font-size: 20px;
         font-weight: 500;
         text-align: center;
         width: 80%;
+        height: 100px;
         margin-top: 10px;
         text-align: center;
     }
 
     .button-content {
         display: block;
+
         margin-top: 10px;
     }
 
@@ -458,11 +467,12 @@ button:hover {
         align-items: center;
         margin: 0;
         margin-top: 40px;
-        margin-left: 35px;
+        margin-left: 30%;
     }
 
     .download {
         margin: 0;
+        justify-content: center;
     }
 
     a {
@@ -490,7 +500,7 @@ button:hover {
     }
 
     .profile-sinopse {
-        width: 220px;
+        width: 90%;
         font-family: 'Oswald', sans-serif;
         color: #fff;
         font-size: 18px;
@@ -502,10 +512,10 @@ button:hover {
 
     .project-container {
         width: 100%;
-        height: 2400px;
+        height: 2700px;
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
         background-image: url('./img/head-set-imagem.jpg');
         background-attachment: fixed;
         background-position: center;
@@ -515,37 +525,44 @@ button:hover {
 
     .project-content {
         height: 95%;
+        width: 90%;
     }
 
     .position-container {
         display: block;
+        align-items: center;
+        justify-content: center;
+        margin: 5%;
+        padding: 5%;
+        width: 95%;
     }
 
     .right {
-        margin: 0;
+        margin: none;
     } 
 
     .left {
-        margin: 0;
+        margin: none;
     }
 
     .project-card {
-        width: 215px;
-        height: 135px;
+        width: 85%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
         margin-top: 1px;
-        margin-left: 10px;
         box-shadow: 10px 10px 5px rgb(49, 49, 49);
         border-radius: 8px;
         display: block; 
     }
 
     .project-image {
-        width: 200px;
+        width: 90%;
         height: 120px;
         position: relative;
         border-radius: 8px;
-        left: 8px;
         top: 25px;
+        left: 5%;
         display: block;
     }
 
@@ -555,7 +572,8 @@ button:hover {
         font-family: 'Oswald', sans-serif;
         font-weight: 100;
         display: block;
-        margin-top: 25px;
+        margin-top: 45px;
+        padding-bottom: 10%;
         margin-left: 10px;
         text-align: justify;
     }
@@ -576,8 +594,8 @@ button:hover {
     }
     
     .form-content {
-        width: auto;
-        height: 450px;
+        width: 100%;
+        height: 45vh;
         margin-top: 50px;
         justify-content: center;
         align-items: center;
@@ -587,9 +605,10 @@ button:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: rgb(80, 80, 80);
-        width: 90%;
-        height: 360px;
+        background-color: rgba(0, 0, 0, 0.46);
+        width: 80%;
+        margin: 5%;
+        height: auto;
         color: #00688B;
     }
 
