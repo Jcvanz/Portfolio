@@ -373,7 +373,7 @@ button:hover {
 
 @media (max-width: 1050px) {
     .hero-image {
-        background-image: url('./img/nubelson-fernandes-iE71-TMrrkE-unsplash.jpg');
+        background-image: url('./img/img-1.PNG');
         background-position: center;
         background-size: cover;
     }
@@ -383,6 +383,9 @@ button:hover {
         display: flex;
         align-items: center;
         justify-content: center;
+        background-image: url('./img/img-1.PNG');
+        background-position: center;
+        background-size: cover;
     }
 
     h1 {
