@@ -380,7 +380,7 @@ button:hover {
         align-items: center;
         justify-content: center;
         background-image: url('./img/img-1.PNG');
-        background-size: auto 900px;
+        background-size: 1000px 900px;
     }
 
     h1 {
