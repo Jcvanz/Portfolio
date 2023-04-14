@@ -374,10 +374,7 @@ button:hover {
 
 @media (max-width: 1170px) {
     .hero-container {   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+        background-size: cover;
     }
 
     h1 {
