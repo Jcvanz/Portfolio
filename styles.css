@@ -380,7 +380,7 @@ button:hover {
         align-items: center;
         justify-content: center;
         background-image: url('./img/img-1.PNG');
-        background-size: 100%;
+        background-size: auto 900px;
     }
 
     h1 {
@@ -573,7 +573,7 @@ button:hover {
 
     .form-container {
         width: auto;
-        height: 90vh;
+        height: 75 vh;
         display: flex;
         justify-content: center;
         align-items: center;
