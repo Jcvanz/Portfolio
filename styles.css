@@ -372,14 +372,15 @@ button:hover {
 }
 
 @media (max-width: 1175px) {
-    .hero-container {
-        height: 100vh;
+    .hero-container {   
+        height: auto;
+        width: auto;
         display: flex;
         align-items: center;
         justify-content: center;
         background-image: url('./img/img-1.PNG');
         background-position: center;
-        background-size: contain;
+        background-size: cover;
     }
 
     h1 {
