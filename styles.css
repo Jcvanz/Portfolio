@@ -379,7 +379,7 @@ button:hover {
         justify-content: center;
         background-image: url('./img/img-1.PNG');
         background-position: center;
-        background-size: cover;
+        background-size: contain;
     }
 
     h1 {
