@@ -310,7 +310,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(4, 4, 4, 0.866);
+    background-color: #000000;
     width: 100%;
     height: auto;
     padding: 20px;
@@ -333,8 +333,9 @@ label {
 
 input {
     display: block;
+    height: 30px;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -347,7 +348,7 @@ textarea {
     max-height: 200px;
     min-height: 200px;
     font-family: 'Oswald', sans-serif;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 button {
@@ -371,16 +372,15 @@ button:hover {
     color: #ffffff;
 }
 
-@media (max-width: 1175px) {
+@media (max-width: 1170px) {
     .hero-container {   
-        height: auto;
-        width: auto;
+        height: 100%;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         background-image: url('./img/img-1.PNG');
-        background-position: center;
-        background-size: cover;
+        background-size: 100%;
     }
 
     h1 {
@@ -539,7 +539,7 @@ button:hover {
     }
 
     .project-card {
-        width: 85%;
+        width: 90%;
         height: auto;
         align-items: center;
         justify-content: center;
@@ -573,7 +573,7 @@ button:hover {
 
     .form-container {
         width: auto;
-        height: 150vh;
+        height: 90vh;
         display: flex;
         justify-content: center;
         align-items: center;
