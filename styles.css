@@ -372,10 +372,6 @@ button:hover {
 }
 
 @media (max-width: 800px) {
-    .hero-container {  
-        background-image: url('./img/img-1.PNG'); 
-        background-size: 215%;
-    }
 
     h1 {
         font-family: 'Oswald', sans-serif;
