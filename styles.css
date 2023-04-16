@@ -404,8 +404,6 @@ button:hover {
         display: block;
         align-items: center;
         justify-content: center;
-        background-image: url('./img/pexels-daniel-reche-3721941.jpg');
-        background-size: cover;
     }
 
     .profile-content {
@@ -499,11 +497,6 @@ button:hover {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url('./img/head-set-imagem.jpg');
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
     .project-content {
@@ -567,11 +560,6 @@ button:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url('./img/headset.jpg');
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
         font-family: 'Oswald', sans-serif;
     }
     
