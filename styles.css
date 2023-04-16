@@ -493,10 +493,7 @@ button:hover {
 
     .project-container {
         width: 100%;
-        height: 350vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        height: 350vh; 
     }
 
     .project-content {
@@ -552,15 +549,6 @@ button:hover {
         padding-bottom: 10%;
         margin-left: 10px;
         text-align: justify;
-    }
-
-    .form-container {
-        width: auto;
-        height: 75 vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: 'Oswald', sans-serif;
     }
     
     .form-content {
