@@ -492,7 +492,6 @@ button:hover {
     }
 
     .project-container {
-        width: 100%;
         height: 350vh; 
     }
 
@@ -552,7 +551,6 @@ button:hover {
     }
     
     .form-content {
-        width: 100%;
         height: auto;
         margin-top: 50px;
         justify-content: center;
