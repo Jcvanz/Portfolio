@@ -495,11 +495,6 @@ button:hover {
         height: auto; 
     }
 
-    .project-content {
-        height: 95%;
-        width: 90%;
-    }
-
     .position-container {
         display: block;
         align-items: center;
