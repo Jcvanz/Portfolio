@@ -12,7 +12,6 @@
     align-items: center;
     justify-content: space-between;
     background-image: url('./img/nubelson-fernandes-iE71-TMrrkE-unsplash.jpg');
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -373,8 +372,9 @@ button:hover {
 }
 
 @media (max-width: 800px) {
-    .hero-container {   
-        background-size: cover;
+    .hero-container {  
+        background-image: url('./img/img-1.PNG'); 
+        background-size: 215%;
     }
 
     h1 {
