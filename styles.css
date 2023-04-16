@@ -494,7 +494,7 @@ button:hover {
         height: auto; 
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 300%;
     }
 
     .position-container {
