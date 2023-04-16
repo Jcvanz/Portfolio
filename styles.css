@@ -491,10 +491,8 @@ button:hover {
     }
 
     .project-container {
-        height: auto; 
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: 300%;
+        height: auto;
+        background-size: 1170px;
     }
 
     .position-container {
