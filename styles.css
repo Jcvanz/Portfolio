@@ -492,7 +492,7 @@ button:hover {
     }
 
     .project-container {
-        height: 350vh; 
+        height: auto; 
     }
 
     .project-content {
