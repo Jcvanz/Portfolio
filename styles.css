@@ -492,7 +492,7 @@ button:hover {
 
     .project-container {
         height: auto;
-        background-size: 200vh;
+        background-size: cover;
     }
 
     .position-container {
