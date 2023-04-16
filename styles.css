@@ -247,7 +247,7 @@ h1 {
     width: 550px;
     height: 90%;
     margin-top: 20px;
-    box-shadow: 10px 10px 5px rgb(49, 49, 49);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.505);
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -493,6 +493,7 @@ button:hover {
 
     .project-container {
         height: auto; 
+        background-attachment: fixed;
     }
 
     .position-container {
@@ -501,7 +502,6 @@ button:hover {
         justify-content: center;
         margin: 5%;
         padding: 5%;
-        width: 95%;
     }
 
     .right {
