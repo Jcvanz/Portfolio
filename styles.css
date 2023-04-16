@@ -544,6 +544,11 @@ button:hover {
         margin-left: 10px;
         text-align: justify;
     }
+
+    .form-container {
+        height: auto;
+        background-size: cover; 
+    }
     
     .form-content {
         height: auto;
