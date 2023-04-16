@@ -493,6 +493,7 @@ button:hover {
     .project-container {
         height: auto;
         background-size: cover;
+        background-attachment: fixed;
     }
 
     .position-container {
