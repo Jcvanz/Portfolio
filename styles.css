@@ -680,9 +680,9 @@ button:hover {
     }
 
     .project-card {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         width: 350px;
-        height: 490px;
+        height: 500px;
     }
 
     .project-text {
