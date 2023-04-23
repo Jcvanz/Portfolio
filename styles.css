@@ -682,7 +682,7 @@ button:hover {
     .project-card {
         margin-bottom: 40px;
         width: 350px;
-        height: 470px;
+        height: 490px;
     }
 
     .project-text {
@@ -747,7 +747,7 @@ button:hover {
 
     button {
         width: 30%;
-        height: 10%;
+        height: 40px;
         border-radius: 20px;
         margin-left: 35%;
         margin-top: 10px;
