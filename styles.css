@@ -548,7 +548,7 @@ button:hover {
     /* --> Sobre <-- */
 
     .content-container1 {
-        height: 200%;
+        height: auto;
         width: auto;
         background-color: #333;
     }
@@ -559,13 +559,13 @@ button:hover {
         display: block;
         align-items: center;
         justify-content: center;
-        padding-bottom: 20px;
+        padding-bottom: 60px;
     }
 
     .profile-content {
         width: 95%;
         height: 90vh;
-        padding: 6px;
+        padding: 2%;
     }
 
     .profile-card {
@@ -573,7 +573,7 @@ button:hover {
         align-items: center;
         width: 100%;
         height: 92%;
-        border-radius: 8px;
+        border-radius: 10px;
     }
 
     .profile-image {
@@ -582,7 +582,8 @@ button:hover {
     }
 
     #h1-title-sobre {
-        margin: 5%;
+        width: 100%;
+        margin: 2% 2% 5% 0;
     }
 
     .profile-text {
@@ -681,7 +682,7 @@ button:hover {
     .project-card {
         margin-bottom: 40px;
         width: 350px;
-        height: 450px;
+        height: 470px;
     }
 
     .project-text {
