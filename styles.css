@@ -572,7 +572,7 @@ button:hover {
 
     /* --> Barra de navegação <-- */
     body {
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
     header {
@@ -677,7 +677,7 @@ button:hover {
     #title-home {
         font-family: 'Oswald', sans-serif;
         font-size: 25px;
-        margin-left: 20%;
+        margin-left: 10%;
         text-align: justify;
         margin-top: 100px;
     }
