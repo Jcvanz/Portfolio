@@ -1,3 +1,5 @@
+// --> Menu <-- //
+
 const btnMobile = document.getElementById('btn-mobile');
 
 function toggleMenu(event) {
@@ -15,6 +17,9 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+// --> Fim do Menu <-- //
+
+// --> Nome <-- //
 
 function typeWrite(elemento) {
     const texto = elemento.innerHTML.split('');
@@ -26,3 +31,30 @@ function typeWrite(elemento) {
 
 const nome = document.querySelector('#text');
 typeWrite(nome); 
+// --> Fim do Nome <-- //
+
+// --> Scroll --> //
+const menuItens = document.querySelectorAll('#menu .link-nav');
+menuItens.forEach(item => {
+    item.addEventListener('click', scrollToIdOnClick);
+})
+
+function scrollToIdOnClick(event) {
+    event.preventDefault();
+    const section = getScrollTopByHref(event.target) - 30;
+
+    scrollToPosition(section);
+}
+
+function scrollToPosition(section) {
+    window.scroll({
+        top: section,
+        behavior: 'smooth',
+    });
+}
+
+function getScrollTopByHref(element) {
+    const id = element.getAttribute('href');
+    return document.querySelector(id).offsetTop;
+}
+// --> Fim do Scroll --> //

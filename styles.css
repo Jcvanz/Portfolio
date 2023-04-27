@@ -2,18 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
-body {
-    
-}
-
 * {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    scroll-padding-top: 2rem;
     transition: .3s ease;
 }
-
 /* --> Barra de Navegação <-- */
 
 header {
@@ -80,7 +74,6 @@ li {
 /* --> Fim da Barra de Navegação <-- */
 
 /* --> Home <-- */
-
 .hero-container {
     height: 100vh;
     display: flex;
@@ -109,14 +102,13 @@ li {
 
 #text {
     font-size: 60px;
-    width: 100%;
+    width: 400px;
     color: #422c19;
-    padding-left: 15px;
+    margin-left: 30px;
 }
 
 #text::after {
     content: '|';
-    margin-left: 5px;
     font-weight: 100;
     opacity: 1;
     animation: ponto .7s infinite;
@@ -129,6 +121,25 @@ li {
     }
     50% {
         opacity: 0;
+    }
+}
+
+.home-img {
+    animation: imagem 5s infinite;
+    
+}
+
+.home-img:hover {
+    opacity: 0.8;
+}
+
+@keyframes imagem {
+    0%, 100% {
+        margin-top: 0;
+    }
+    50% {
+        margin-top: 200px;
+        filter: drop-shadow(20px 10px 3px #422c19);
     }
 }
 
@@ -186,7 +197,6 @@ li {
 /* --> Fim da Home <-- */
 
 /* --> Sobre <-- */
-
 .content-container1 {
     height: 100vh;
     background-color: #ffffff;
@@ -422,7 +432,7 @@ li {
 }
 
 .cards {
-    transition: transform 2.5s;
+    transition: transform 1.2s;
 }
 
 .cards:hover {
