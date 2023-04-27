@@ -1,12 +1,28 @@
-var button = document.getElementById('read-button');
+const btnMobile = document.getElementById('btn-mobile');
 
-button.addEventListener('click', function() {
-    var card = document.querySelector('.project-card');
-    card.classlist.toggle('active');
-
-    if (card.classList.contains('active')) {
-        return button.textContent = 'Read less';
+function toggleMenu(event) {
+    if (event.type === 'touchstart') event.preventDefault();
+    const nav = document.getElementById('nav');
+    nav.classList.toggle('active');
+    const active = nav.classList.contains('active');
+    event.currentTarget.setAttribute('aria-expanded', 'true')
+    if (active) {
+        event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
+    } else {
+        event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
     }
+}
 
-    button.textContent = 'Read more';
-});
+btnMobile.addEventListener('click', toggleMenu);
+btnMobile.addEventListener('touchstart', toggleMenu);
+
+function typeWrite(elemento) {
+    const texto = elemento.innerHTML.split('');
+    elemento.innerHTML = '';
+    texto.forEach((letra, i) => {
+        setTimeout(() => elemento.innerHTML += letra, 250 * i);
+    });
+}
+
+const nome = document.querySelector('#text');
+typeWrite(nome); 
