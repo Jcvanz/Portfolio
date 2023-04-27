@@ -695,6 +695,7 @@ button:hover {
     }
 
     .home-img {
+        width: 90%;
         margin-top: 50px;
     }
 
