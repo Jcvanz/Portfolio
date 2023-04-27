@@ -583,7 +583,10 @@ button:hover {
 }
 
 @media (max-width: 830px) {
-
+    body{
+        overflow-x: hidden;
+        background-color: #704d30;
+    }
     /* --> Barra de navegação <-- */
     header {
         display: flex;
