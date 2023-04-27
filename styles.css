@@ -571,18 +571,18 @@ button:hover {
 @media (max-width: 800px) {
 
     /* --> Barra de navegação <-- */
-    body {
-        overflow: hidden;
-    }
-
     header {
-        width: 100%;
+        width: 79%;
         display: flex;
         justify-content: space-between;
     }
 
     .logo {
         font-size: 30px;
+    }
+
+    #nav {
+        margin-right: 12%;
     }
 
     #menu {
@@ -623,7 +623,7 @@ button:hover {
 
     #btn-mobile {
         display: flex;
-        margin-right: 100px;
+        
         font-size: 1rem;
         border: none;
         cursor: pointer;
