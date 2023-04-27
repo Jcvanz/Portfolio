@@ -105,9 +105,9 @@ li {
 
 #text {
     font-size: 60px;
-    width: 400px;
+    width: 100%;
     color: #422c19;
-    padding-left: 30px;
+    padding-left: 15px;
 }
 
 #text::after {
@@ -656,6 +656,10 @@ button:hover {
     }
 
     /* --> Home <-- */
+    #home {
+        width: 100%;
+    }
+
     .hero-container {
         width: 100%;
         height: 110vh;
@@ -697,6 +701,9 @@ button:hover {
     }
 
     /* --> Sobre <-- */
+    #about {
+        width: 100%;
+    }
 
     .content-container1 {
         height: auto;
@@ -849,6 +856,9 @@ button:hover {
     /* --> Fim dos Projetos <-- */
 
     /* --> Form <-- */
+    #contact {
+        width: 100%;
+    }
     
     .form-container {
         height: 150vh;
