@@ -5,8 +5,6 @@
 * {
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
-    transition: .3s ease;
 }
 /* --> Barra de Navegação <-- */
 
@@ -587,6 +585,7 @@ button:hover {
     /* --> Barra de navegação <-- */
     header {
         display: flex;
+        backdrop-filter: blur(50px);
     }
 
     .logo {
