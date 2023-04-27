@@ -586,7 +586,7 @@ button:hover {
 
     /* --> Barra de navegação <-- */
     header {
-        display: none;
+        display: flex;
     }
 
     .logo {
