@@ -571,10 +571,13 @@ button:hover {
 @media (max-width: 800px) {
 
     /* --> Barra de navegação <-- */
+    html, body {
+        padding: 0;
+        margin: 0;
+    }
+
     header {
-        width: 79%;
-        display: flex;
-        justify-content: space-between;
+        display: none;
     }
 
     .logo {
