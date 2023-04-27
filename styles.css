@@ -571,6 +571,10 @@ button:hover {
 @media (max-width: 800px) {
 
     /* --> Barra de navegação <-- */
+    body {
+        overflow-x: hidden;
+    }
+
     header {
         width: 100%;
         display: flex;
