@@ -594,12 +594,15 @@ textarea {
 @media (max-width: 1024px) {
 
     /* --> Barra de navegação <-- */
+    body {
+        overflow-x: hidden;
+    }
+
     header {
         display: flex;
         width: 100%;
         align-items: center;
         height: 70px;
-        padding: 1rem;
         justify-content: space-around;
         background-color: #432915;
         z-index: 1000;
@@ -684,7 +687,7 @@ textarea {
 
     /* --> Home <-- */
     #home {
-        width: 140vw;
+        width: 100vw;
     }
 
     .hero-container {
@@ -733,7 +736,7 @@ textarea {
 
     /* --> Sobre <-- */
     #about {
-        width: 140vw;
+        width: 100vw;
     }
 
     .content-container1 {
@@ -842,7 +845,7 @@ textarea {
     /* --> Projects <-- */
 
     #projects {
-        width: 140vw;
+        width: 100vw;
         height: auto;
         display: block;
     }
@@ -888,7 +891,7 @@ textarea {
 
     /* --> Form <-- */
     #contact {
-        width: 140vw;
+        width: 100vw;
     }
     
     .form-container {
