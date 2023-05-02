@@ -585,10 +585,10 @@ textarea {
 }
 
 ::-webkit-scrollbar {
-    width: 0;
+    width: 8px;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #2e1f11;
+    background-color: #66431a;
 }
 
 @media (max-width: 1024px) {
@@ -596,6 +596,7 @@ textarea {
     /* --> Barra de navegação <-- */
     header {
         display: flex;
+        width: 100%;
         align-items: center;
         height: 70px;
         padding: 1rem;
@@ -683,7 +684,7 @@ textarea {
 
     /* --> Home <-- */
     #home {
-        width: 100%;
+        width: 140vw;
     }
 
     .hero-container {
@@ -732,7 +733,7 @@ textarea {
 
     /* --> Sobre <-- */
     #about {
-        width: 100%;
+        width: 140vw;
     }
 
     .content-container1 {
@@ -841,7 +842,7 @@ textarea {
     /* --> Projects <-- */
 
     #projects {
-        width: 100%;
+        width: 140vw;
         height: auto;
         display: block;
     }
@@ -887,7 +888,7 @@ textarea {
 
     /* --> Form <-- */
     #contact {
-        width: 100%;
+        width: 140vw;
     }
     
     .form-container {
@@ -966,5 +967,12 @@ textarea {
     .form-button {
         height: 80px;
         font-size: 25px;
+    }
+
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: #66431a;
     }
 }
