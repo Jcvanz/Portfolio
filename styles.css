@@ -603,7 +603,6 @@ textarea {
         justify-content: space-around;
         background-color: #432915;
         z-index: 1000;
-        border-top: 5px solid #2e2112;
     }
 
     .logo {
