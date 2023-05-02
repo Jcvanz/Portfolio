@@ -969,11 +969,4 @@ textarea {
         height: 80px;
         font-size: 25px;
     }
-
-    ::-webkit-scrollbar {
-        width: 8px;
-    }
-    ::-webkit-scrollbar-thumb {
-        background-color: #66431a;
-    }
 }
