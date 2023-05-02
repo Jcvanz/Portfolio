@@ -599,10 +599,11 @@ textarea {
         display: flex;
         width: 100%;
         align-items: center;
-        height: 70px;
+        height: 90px;
         justify-content: space-around;
         background-color: #432915;
         z-index: 1000;
+        border-top: 5px solid #2e2112;
     }
 
     .logo {
@@ -615,7 +616,8 @@ textarea {
         display: block;
         position: absolute;
         width: 100%;
-        top: 101px;
+        height: 100vh;
+        top: 90px;
         right: 0px;
         background-color: #432915;
         z-index: 1000;
@@ -625,7 +627,7 @@ textarea {
     }
 
     #nav.active #menu {
-        height: calc(100vh - 101px);
+        height: calc(100vh - 90px);
         visibility: visible;
         overflow-y: auto;
     }
