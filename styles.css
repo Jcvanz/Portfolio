@@ -18,7 +18,8 @@ header {
     position: fixed;
     border-bottom: 2px solid #1f1001;
     background-color: #7c582e6f;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
 }
 
 .logo {
@@ -32,7 +33,7 @@ header {
 }
 
 .logo:hover {
-    transform: scale(1.02);
+    transform: scale(1.01);
     filter: drop-shadow(5px 5px 3px #c88c67);
     color: #ffffff;
 }
@@ -95,27 +96,27 @@ li {
     font-size: 23px;
     font-weight: bold;
     color: #2e1f11;
-    
+    filter: drop-shadow(10px 10px 4px #382f23b1);
 }
 
 #text {
     font-size: 60px;
     width: 400px;
     color: #422c19;
-    margin-left: 30px;
 }
 
 #text::after {
-    content: '|';
+    content: ' |';
     font-weight: 100;
-    opacity: 1;
-    animation: ponto .7s infinite;
+    opacity: 0.8;
+    animation: ponto .8s infinite;
     font-family: 'Oswald';
+    min-width: 831px;
 }
 
 @keyframes ponto {
     0%, 100% {
-        opacity: 2;
+        opacity: 0.8;
     }
     50% {
         opacity: 0;
@@ -124,7 +125,6 @@ li {
 
 .home-img {
     animation: imagem 5s infinite;
-    
 }
 
 .home-img:hover {
@@ -509,7 +509,7 @@ textarea {
     border: 3px solid #746959;
 }
 
-button {
+.button-send {
     width: 150px;
     height: 50px;
     border-radius: 20px;
@@ -523,7 +523,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.button-send:hover {
     transform: scale(1.05);
     background-color: #422c19;
     color: #ffffff;
@@ -580,65 +580,72 @@ button:hover {
     box-shadow: 0px 10px 5px #00000079;
 }
 
-@media (max-width: 830px) {
+::-webkit-scrollbar {
+    width: 0;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #2e1f11;
+}
+
+@media (max-width: 1024px) {
 
     /* --> Barra de navegação <-- */
     header {
         display: flex;
-        backdrop-filter: blur(50px);
+        align-items: center;
+        height: 70px;
+        padding: 1rem;
+        justify-content: space-around;
+        background-color: #4329157a;
+        z-index: 1000;
+        backdrop-filter: blur(20px);
     }
 
     .logo {
-        font-size: 30px;
-    }
-
-    #nav {
-        margin-right: 12%;
+        width: 40%;
+        font-size: 40px;
+        margin-left: 0px;
     }
 
     #menu {
-        display: flex;
-        flex-direction: column;
+        display: block;
         position: absolute;
-        align-items: center;
-        justify-content: start;
         width: 100%;
+        top: 101px;
         right: 0px;
-        background-color: #422c19;
+        background-color: #432915;
         z-index: 1000;
-        transition: .01s;
         visibility: hidden;
         overflow-y: hidden;
+        border-top: 5px solid #2e2112;
     }
 
     #nav.active #menu {
-        height: 100vh;
+        height: calc(100vh - 101px);
         visibility: visible;
         overflow-y: auto;
     }
 
     #menu .link-nav {
-        width: 100%;
+        padding: 0rem 0;
+        margin: 5.5rem 0;
     }
 
     .link-nav {
         text-align: center;
+        font-size: 35px;
     }
 
     li {
-        width: 100%;
-        border-bottom: 5px solid #66431a;
-        margin-left: 30px;
-        margin-top: 80px;
+        margin-top: -10px;
     }
 
     #btn-mobile {
         display: flex;
-        
         font-size: 1rem;
         border: none;
         cursor: pointer;
-        background: transparent;
+        background: none;
     }
 
     #hamburger {
@@ -650,11 +657,11 @@ button:hover {
         content: '';
         width: 25px;
         height: 3px;
-        background: rgb(253, 253, 253);
+        background: rgb(0, 0, 0);
         display: block;
         margin-top: 5px;
-        transition: .1s;
-        position: relative
+        transition: .3s;
+        position: relative;
     }
 
     #nav.active #hamburger {
@@ -688,17 +695,12 @@ button:hover {
     #title-home {
         font-family: 'Oswald', sans-serif;
         font-size: 25px;
-        margin-left: 10%;
         text-align: justify;
-        margin-top: 100px;
+        margin: 130px 0 0 50px;
     }
 
     #text {
-        margin: 15px 0 0 0;
-    }
-
-    #title2-h3 {
-        margin-left: 28px;
+        margin: 20px 0 0 0;
     }
 
     .home-img {
@@ -930,11 +932,10 @@ button:hover {
         min-height: 100px;
     }
 
-    button {
+    .button-send {
         width: 30%;
         height: 40px;
         border-radius: 20px;
-        margin-left: 35%;
         margin-top: 10px;
         border: none;
         background-color: #422c19;
