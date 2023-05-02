@@ -594,9 +594,6 @@ textarea {
 @media (max-width: 1024px) {
 
     /* --> Barra de navegação <-- */
-    body {
-        overflow-x: none;
-    }
 
     header {
         display: flex;
@@ -687,11 +684,11 @@ textarea {
 
     /* --> Home <-- */
     #home {
-        width: 100vw;
+        width: 140vw;
     }
 
     .hero-container {
-        width: 100%;
+        width: 140%;
         height: 110vh;
     }
 
