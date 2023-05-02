@@ -595,7 +595,7 @@ textarea {
 
     /* --> Barra de navegação <-- */
     body {
-        overflow-x: hidden;
+        overflow-x: none;
     }
 
     header {
