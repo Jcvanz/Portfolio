@@ -6,6 +6,10 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: #432915;
+}
 /* --> Barra de Navegação <-- */
 
 header {
@@ -259,11 +263,11 @@ li {
     width: 40px;
     height: 40px;
     margin-top: 30px;
-    transition: transform 150ms;
+    transition: transform .45s;
 }
 
-.redes-logo:hover {
-    transform: scale(1.10);
+.redes-logo:hover{
+    transform: rotate(360deg) scale(1.15);
 }
 
 .divider {
@@ -650,6 +654,7 @@ textarea {
     #hamburger {
         border-top: 3px solid;
         width: 25px;
+        color: #000000;
     }
 
     #hamburger::after, #hamburger::before {
@@ -672,7 +677,7 @@ textarea {
     }
 
     #nav.active #hamburger::after {
-        transform: rotate(-134deg);
+        transform: rotate(-135deg);
         top: -7px;
     }
 
