@@ -596,9 +596,8 @@ textarea {
         height: 70px;
         padding: 1rem;
         justify-content: space-around;
-        background-color: #4329157a;
+        background-color: #432915;
         z-index: 1000;
-        backdrop-filter: blur(20px);
     }
 
     .logo {
@@ -657,7 +656,7 @@ textarea {
         content: '';
         width: 25px;
         height: 3px;
-        background: rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
         display: block;
         margin-top: 5px;
         transition: .3s;
@@ -673,7 +672,7 @@ textarea {
     }
 
     #nav.active #hamburger::after {
-        transform: rotate(-135deg);
+        transform: rotate(-134deg);
         top: -7px;
     }
 
